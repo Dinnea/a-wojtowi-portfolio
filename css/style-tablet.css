@@ -1,0 +1,50 @@
+@media (max-width: 1200px) and (min-width:769px)
+{
+    body{
+        background-color: #ffffff;
+      }
+
+    h2{
+        font-size: 17.5px;
+    }
+    p{
+        font-size: 12px;
+    }
+    #navbar{
+        font-size: 17.5px;
+    }
+
+    #pfp{
+        margin-top: 50px;
+        width: 30vw;
+        height: 30vw;
+    }
+    #projects{
+        width: 100vw;
+    }
+    .projectContainer{
+        justify-content: space-around; 
+        align-items: flex-start;
+    }
+
+    #projects > h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .project > img{
+        width: 250px;
+        height: 250px;
+    }
+    .projectContainer .text{
+        width: 240px;
+        padding-left: 10px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+        
+    }
+    .tags{
+        width: 250px;
+    }
+}
+

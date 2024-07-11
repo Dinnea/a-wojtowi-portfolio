@@ -1,0 +1,44 @@
+@media(min-width: 1201px)
+{
+    body{
+        background-color: #000000;
+      }
+    #navbar{
+        font-size: 20px;
+    }
+
+    #pfp{
+        width: 20vw;
+        height: 20vw;
+    }
+#projects{
+    
+    width: 100vw;
+}
+    #projects > h1{
+        font-size: 50px;
+        
+        
+    }
+
+    .project > img{
+        width: 400px;
+        height: 400px;
+    }
+    .projectContainer{
+        justify-content: space-around;
+        
+    }
+
+    .projectContainer .text{
+        width: 390px;
+        padding-left: 10px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+    .tags{
+        width: 400px;
+    }
+    
+}
+

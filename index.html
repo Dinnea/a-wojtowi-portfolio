@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<head>
+    <meta charset=" UTF-8"/>
+    <title> Alex Wojtowicz | Portfolio </title>
+    <link rel="stylesheet" href = "css/style.css"/>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src ="js/script"></script>
+    
+    
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+                <li> <a href="https://github.com/Dinnea" target="_blank"> github</a></li>
+                <!-- <li> <a href="https://dinnea.itch.io/" target="_blank"> itch.io</a></li> -->
+                <li> <a href="https://www.linkedin.com/in/alexwojtowicz1" target="_blank"> linkedIn</a></li>
+                <li> <a href="#contact"> contact</a>
+                <li> <a href="./src/resume/Alex_Wójtowicz_-_Programming_student.pdf" target="_blank"> resume </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id = "introContainer">
+            <div id = "pfpContainer"><img id = "pfp" src="./src/img/profile-pic-alex.jpg"></div>
+            <div id = "intro">
+                <h1> Hi, I'm Alex Wojtowicz</h1>
+                <p> I am an aspiring game developer. Looking to widen my skill portfolio and expand my horizons, with a big interest in gameplay programming and VR development. Experienced in C# and Unity, learning Unreal and C++.<br />
+                    Currently studying <a href="https://www.saxion.edu/programmes/bachelor/creative-media-and-game-technologies" target="_blank" >Creative Media and Game Technologies</a> 
+                    at <a href= "https://www.saxion.edu/" target="_blank" >Saxion University of Applied Sciences</a> in Enschede, Netherlands.</p>       
+                <p> In my spare time, besides playing video games, I dabble in <a href="https://next.nexusmods.com/profile/FeraelVrinn/mods" target="_blank"> modding</a>, primarily for Baldur's Gate 3.</p>    
+            </div>
+        </div>
+        <div id ="projects"> 
+            <h1>Recent Projects</h1>
+            <ul class = "projectContainer">
+                <li class="gator">
+                    <a href="https://github.com/Mightylight/Project_ShowOff" target="_blank">
+                        <div class="project">
+                            <img src="./src/img/gator-escape.png">
+                            <div class ="text"> 
+                                <h2>Escape the Gator</h2>
+                                <p>A local multiplayer VR and PC game.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class = "tags">
+                        <li class = "engine"> Unity </li>
+                        <li class = "language"> C#</li>
+                        <li class = "platform"> PC VR</li>
+                        <li class = "typeProject"> Game</li>
+                        <li class = "typeProject"> University </li>
+                    </ul>
+                </li>
+                <li class = "VRTest">
+                    <a href="https://github.com/Dinnea/Game-Engine-Performance-In-VR" target="_blank">
+                        <div class="project">
+                            <img src="./src/img/vr-performance.png">
+                            <div class ="text"> 
+                                <h2 class = "VRTest">VR Engine Perfromance Investigation</h2>
+                                <p>Investigation on performance of game engines for standalone VR apps.</p>
+                            </div>
+                        </div>
+                    </a>
+                    <ul class = "tags">
+                        <li class = "engine"> Unity </li>
+                        <li class = "engine"> Unreal 5</li>
+                        <li class = "language"> C#</li>
+                        <li class = "language"> C++</li>
+                        <li class = "language"> Blueprints</li>
+                        <li class = "platform"> Meta Quest</li>
+                        <li class = "typeProject"> Research</li>
+                        <li class = "typeProject"> University </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://github.com/Dinnea/Tower-DefenceV2" target="_blank">
+                        <div class="project" id="gator">
+                            <img src="./src/img/Screenshot 2024-07-06 010637.png">
+                            <div class ="text TD"> 
+                                <h2 class = "TD">Tower Defence</h2>
+                                <p>A flexible base for a tower defence game.</p>
+                            </div>    
+                        </div>
+                    </a>
+                    <ul class = "tags">
+                        <li class = "engine"> Unity </li>
+                        <li class = "language"> C#</li>
+                        <li class = "platform"> PC</li>
+                        <li class = "typeProject"> Game</li>
+                        <li class = "typeProject"> University </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class = "projectContainer test">
+                <li>
+                    <a href="https://github.com/Dinnea/UnrealEngineBasics" target="_blank">
+                        <div class="project">
+                            <img src="./src/img/unreal.png">
+                            <div class ="text unreal"> 
+                                <h2>Unreal Basics</h2>
+                                <p>Study in Unreal Game Development.</p>
+                            </div>   
+                        </div>
+                    </a>
+                    <ul class = "tags">
+                        <li class = "engine"> Unreal 5</li>
+                        <li class = "language"> Blueprints</li>
+                        <li class = "platform"> PC</li>
+                        <li class = "typeProject"> Study</li>
+                        <li class = "typeProject"> University </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://github.com/Dinnea/Project-Innovation" target="_blank">
+                        <div class="project" id="gator">
+                            <img src="./src/img/pogo.png">
+                            <div class ="text POGO"> 
+                                <h2>P.O.G.O.</h2>
+                                <p>A gyroscope based endless runner.</p>
+                            </div>   
+                        </div>
+                    </a>
+                    <ul class = "tags">
+                        <li class = "engine"> Unity</li>
+                        <li class = "language"> C#</li>
+                        <li class = "platform"> Android</li>
+                        <li class = "typeProject"> Game</li>
+                        <li class = "typeProject"> University </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>          
+    </main>
+
+    <footer id="contact">
+       <p>You can reach me at <a href="mailto:alexwojtowicz13@gmail.com"> alex.wojtowicz13@gmail.com</a> <br /></p>
+        
+    </footer>
+
+</body>

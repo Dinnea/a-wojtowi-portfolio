@@ -1,0 +1,214 @@
+@import url(style-desktop.css);
+@import url(style-tablet.css);
+@import url(style-mobile.css);
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+  background-color: #563061;
+}
+a{
+  color:#e6d86b;
+  text-decoration: none;
+  display: inline;
+}
+a:hover{
+  color:#e6b16b;
+}
+
+h2{
+  margin-bottom: -7.5px;
+}
+
+main{
+  margin-top: 7.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+ul{
+  list-style-type: none;
+}
+#navbar{
+  z-index:1;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-end;
+ 
+}
+#navbar > li{
+  display:inline-block;
+}
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  margin: -10px;
+  width: 100vw;
+  padding:1px;
+  background-color: #2d1a33;
+  box-shadow: 2px 2px 5px#2d1a33;
+}
+
+nav a {
+  padding-right: 25px;
+}
+
+
+#introContainer{
+  display: flex;
+  flex-direction: row;
+  color: #b298dc;
+  width: 80vw;
+}
+
+#introContainer > *{
+  display: flex;
+}
+
+
+#pfp{
+
+  border-radius: 50%;
+  border-style: solid;
+  border-color:#b298dc;
+  border-width: 2px;
+  box-shadow: 0 0 5px #b298dc;
+}
+
+img{
+  border-style: solid;
+  border-width: 2px;
+  border-color:#b298dc;
+  box-shadow: 0 0 5px #b298dc;
+}
+
+
+#intro {
+  
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+
+}
+
+#intro >  p {
+  font-size: 20px;
+  width: 50vw;
+}
+
+#intro > * {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+#projects{
+  margin-top: 100px;
+  background:linear-gradient(180deg, #563061, #2d1a33);
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#projects >h1{
+  color:#e6d86b;
+  text-shadow: 0 0 10px #2d1a33;
+  text-align: center;
+}
+.projectContainer{
+  display: flex;
+  
+  overflow: visible;
+}
+.project{
+  position: relative;
+}
+
+.project > img{
+  border-radius: 5%;
+  border-color: #e6d86b;
+  box-shadow: 0 0 5px #e6d86b; 
+  object-fit: cover;
+}
+
+.text h2{
+  display: inline-block;
+}
+
+.projectContainer .text{
+  background:linear-gradient(180deg, #0e080f1e, #0e080f);
+  border-radius: 0 0 20px 20px;
+  position: absolute;
+  bottom: 5px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+  text-wrap: wrap;
+}
+
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  
+  height: auto;
+  row-gap: 0.5vw;
+}
+
+.tags > li{
+  text-transform: lowercase;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: white;
+  
+  box-shadow: 0 0 3px #0e080f;
+}
+
+.engine{
+  background-color: #00076f;
+}
+.language{
+  background-color: #44008b;
+}
+.platform{
+  background-color: #9f45b0;
+}
+.typeProject{
+  background-color: #e54ed0;
+}
+
+#contact{
+  position: relative;
+  overflow: auto;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  padding-top: 10px;
+  margin: -8px;
+  background: #2d1a33;
+}
+#contact > p {
+  
+  text-align: right;
+  font-size: 20px;
+  padding-right: 10px;
+}
+footer {
+
+  height: 50px;
+}
