@@ -12,6 +12,7 @@ html{
 }
 body{
   background-color: #563061;
+  //min-height: 10vh;
 }
 a{
   color:#e6d86b;
@@ -145,7 +146,7 @@ img{
 }
 
 .projectContainer .text{
-  background:linear-gradient(180deg, #0e080f1e, #0e080f);
+  background:linear-gradient(180deg, #0e080f00, #0e080f);
   border-radius: 0 0 20px 20px;
   position: absolute;
   bottom: 5px;
