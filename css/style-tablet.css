@@ -13,6 +13,9 @@
     #navbar{
         font-size: 17.5px;
     }
+    #intro >  p {
+        font-size: 20px;
+      }
 
     #pfp{
         margin-top: 50px;

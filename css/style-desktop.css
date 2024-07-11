@@ -12,6 +12,9 @@
     
     width: 100vw;
 }
+#intro >  p {
+    font-size: 20px;
+  }
     #projects > h1{
         font-size: 50px;
         
