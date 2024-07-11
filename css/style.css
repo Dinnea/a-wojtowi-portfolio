@@ -133,7 +133,6 @@ img{
 }
 
 .project > img{
-  border-radius: 5%;
   border-color: #e6d86b;
   box-shadow: 0 0 5px #e6d86b; 
   object-fit: cover;
@@ -145,7 +144,6 @@ img{
 
 .projectContainer .text{
   background:linear-gradient(180deg, #0e080f00, #0e080f);
-  border-radius: 0 0 20px 20px;
   position: absolute;
   bottom: 5px;
   height: auto;
@@ -165,30 +163,51 @@ img{
   padding: 0;
   
   height: auto;
-  row-gap: 0.5vw;
+  
 }
 
 .tags > li{
   text-transform: lowercase;
-  padding: 5px;
-  border-radius: 5px;
-  margin-right: 10px;
-  color: white;
-  
+  color: white;  
   box-shadow: 0 0 3px #0e080f;
 }
 
-.engine{
+.unreal{
   background-color: #00076f;
 }
-.language{
-  background-color: #44008b;
+.unity{
+  background-color: #982968;
+  
 }
-.platform{
+.PC{
+  background-color: #72239e;
+}
+.c-sharp{
   background-color: #9f45b0;
 }
-.typeProject{
+.group{
+  background-color: #c24ac0;
+}
+.c-plus-plus{
   background-color: #e54ed0;
+}
+.VR{
+  background-color: #44008b;
+}
+.game{
+  background-color: #126494;
+}
+.education{
+  background-color: #424499;
+}
+.research{
+  background-color: #2A90A6;
+}
+.mobile{
+  background-color: #37AE81;
+}
+.solo{
+  background-color: #42bbb7;
 }
 
 #contact{

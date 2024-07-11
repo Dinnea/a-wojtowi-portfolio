@@ -36,6 +36,7 @@
     }
 
     .project > img{
+        border-radius: 20px;
         width: 250px;
         height: 250px;
     }
@@ -44,10 +45,17 @@
         padding-left: 10px;
         margin-left: 2px;
         margin-bottom: 2px;
+        border-radius: 0 0 20px 20px;
         
     }
     .tags{
         width: 250px;
+        row-gap: 1vh;
+    }
+    .tags >li{
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 10px;
     }
 }
 
