@@ -76,8 +76,8 @@ nav a {
 
 
 #pfp{
-
-  border-radius: 50%;
+  object-fit: cover;
+  border-radius: 50% / 40%;
   border-style: solid;
   border-color:#b298dc;
   border-width: 2px;
@@ -123,11 +123,16 @@ img{
   text-shadow: 0 0 10px #2d1a33;
   text-align: center;
 }
+
 .projectContainer{
   display: flex;
-  
-  overflow: visible;
+  flex-wrap: wrap;
+  column-gap: 200px;
+  row-gap: 75px;
+  justify-content: center;
+  padding: 0;
 }
+
 .project{
   position: relative;
 }

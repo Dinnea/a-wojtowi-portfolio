@@ -1,0 +1,124 @@
+{
+  "tags": {
+    "unity": {
+      "id": "unity",
+      "label": "Unity",
+      "category": "engine"
+    },
+    "unreal": {
+      "id": "unreal",
+      "label": "Unreal 5",
+      "category": "engine"
+    },
+    "csharp": {
+      "id": "c-sharp",
+      "label": "C#",
+      "category": "language"
+    },
+    "cpp": {
+      "id": "c-plus-plus",
+      "label": "C++",
+      "category": "language"
+    },
+    "blueprints": {
+      "id": "unreal",
+      "label": "Blueprints",
+      "category": "language"
+    },
+    "vr": {
+      "id": "VR",
+      "label": "VR",
+      "category": "platform"
+    },
+    "pc": {
+      "id": "PC",
+      "label": "PC",
+      "category": "platform"
+    },
+    "mobile": {
+      "id": "mobile",
+      "label": "Android",
+      "category": "platform"
+    },
+    "game": {
+      "id": "game",
+      "label": "Game",
+      "category": "type"
+    },
+    "engine": {
+      "id": "engine",
+      "label": "Engine",
+      "category": "type"
+    },
+    "research": {
+      "id": "research",
+      "label": "Research",
+      "category": "type"
+    },
+    "university": {
+      "id": "education",
+      "label": "University",
+      "category": "education"
+    },
+    "study": {
+      "id": "education",
+      "label": "Study",
+      "category": "education"
+    },
+    "solo": {
+      "id": "solo",
+      "label": "Solo",
+      "category": "team"
+    },
+    "group": {
+      "id": "group",
+      "label": "Group",
+      "category": "team"
+    }
+  },
+
+  "projects": [
+    {
+      "url": "https://github.com/Dinnea/DinnEngine",
+      "thumbnail": "./src/img/Screenshot 2026-02-14 222543.png",
+      "title": "DinnEngine",
+      "description": "Simple 2D game engine, built from scratch. WIP.",
+      "tags": ["cpp", "pc", "engine", "university", "solo"]
+    },
+    {
+      "url": "https://github.com/Mightylight/Project_ShowOff",
+      "thumbnail": "./src/img/gator-escape.png",
+      "title": "Escape the Gator",
+      "description": "A local multiplayer VR and PC game.",
+      "tags": ["unity", "csharp", "pc", "vr", "game", "university", "group"]
+    },
+    {
+      "url": "https://github.com/Dinnea/Game-Engine-Performance-In-VR",
+      "thumbnail": "./src/img/vr-performance.png",
+      "title": "VR Engine Performance Investigation",
+      "description": "Investigation on performance of game engines for standalone VR apps.",
+      "tags": ["unity", "unreal", "csharp", "cpp", "blueprints", "vr", "research", "university", "solo"]
+    },
+    {
+      "url": "https://github.com/Dinnea/Tower-DefenceV2",
+      "thumbnail": "./src/img/Screenshot 2024-07-06 010637.png",
+      "title": "Tower Defence",
+      "description": "A flexible base for a tower defence game.",
+      "tags": ["unity", "csharp", "pc", "game", "university", "solo"]
+    },
+    {
+      "url": "https://github.com/Dinnea/UnrealEngineBasics",
+      "thumbnail": "./src/img/unreal.png",
+      "title": "Unreal Basics",
+      "description": "Study in Unreal Game Development.",
+      "tags": ["unreal", "blueprints", "pc", "study", "university", "solo"]
+    },
+    {
+      "url": "https://github.com/Dinnea/Project-Innovation",
+      "thumbnail": "./src/img/pogo.png",
+      "title": "P.O.G.O.",
+      "description": "A gyroscope based endless runner.",
+      "tags": ["unity", "csharp", "mobile", "game", "university", "group"]
+    }
+  ]
+}
