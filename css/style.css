@@ -118,7 +118,7 @@ img{
  
 }
 
-#projects >h1{
+h1{
   color:#e6d86b;
   text-shadow: 0 0 10px #2d1a33;
   text-align: center;
@@ -221,7 +221,7 @@ img{
   bottom: 0;
   left: 0;
   height: auto;
-  padding-top: 10px;
+  padding-top: 5%;
   margin: -8px;
   background: #2d1a33;
   

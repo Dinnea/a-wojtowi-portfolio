@@ -79,6 +79,7 @@
 
   "projects": [
     {
+      "id": "dinnengine",
       "url": "https://github.com/Dinnea/DinnEngine",
       "thumbnail": "./src/img/Screenshot 2026-02-14 222543.png",
       "title": "DinnEngine",
@@ -86,6 +87,7 @@
       "tags": ["cpp", "pc", "engine", "university", "solo"]
     },
     {
+      "id": "gator-escape",
       "url": "https://github.com/Mightylight/Project_ShowOff",
       "thumbnail": "./src/img/gator-escape.png",
       "title": "Escape the Gator",
@@ -93,6 +95,7 @@
       "tags": ["unity", "csharp", "pc", "vr", "game", "university", "group"]
     },
     {
+      "id": "vr-performance",
       "url": "https://github.com/Dinnea/Game-Engine-Performance-In-VR",
       "thumbnail": "./src/img/vr-performance.png",
       "title": "VR Engine Performance Investigation",
@@ -100,6 +103,7 @@
       "tags": ["unity", "unreal", "csharp", "cpp", "blueprints", "vr", "research", "university", "solo"]
     },
     {
+      "id": "tower-defence",
       "url": "https://github.com/Dinnea/Tower-DefenceV2",
       "thumbnail": "./src/img/Screenshot 2024-07-06 010637.png",
       "title": "Tower Defence",
@@ -107,6 +111,7 @@
       "tags": ["unity", "csharp", "pc", "game", "university", "solo"]
     },
     {
+      "id": "unreal-basics",
       "url": "https://github.com/Dinnea/UnrealEngineBasics",
       "thumbnail": "./src/img/unreal.png",
       "title": "Unreal Basics",
@@ -114,6 +119,7 @@
       "tags": ["unreal", "blueprints", "pc", "study", "university", "solo"]
     },
     {
+      "id": "pogo",
       "url": "https://github.com/Dinnea/Project-Innovation",
       "thumbnail": "./src/img/pogo.png",
       "title": "P.O.G.O.",

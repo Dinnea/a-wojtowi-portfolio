@@ -2,16 +2,8 @@ let tagsMap = {};
 
 function documentReady()
 {
-    console.log("Loaded.");
+    console.log("JSON loader ready.");
     fetchJSON();
-
-    
-
-    // addProject("https://github.com/Mightylight/Project_ShowOff", 
-    //     "./src/img/gator-escape.png",
-    //     "Escape the Gator",
-    //     "A local multiplayer VR and PC game."
-    // );
 }
 
 function fetchJSON()
@@ -23,12 +15,7 @@ function fetchJSON()
             console.log("Projects JSON loaded:", data);
             tagsMap = data.tags;
 
-            data.projects.forEach(element => addProject(
-                                    element.url, 
-                                    element.thumbnail, 
-                                    element.title, 
-                                    element.description,
-                                    element.tags));
+            data.projects.forEach(element => addProject(element, false));
         })
         .catch(err => console.error(err));
 }
@@ -44,11 +31,20 @@ function addTag(container, tag)
     container.append(tagItem);
 }
 
-function addProject(url, thumbnail, title, description, tags) // tags are empty for now.
+function addProject(element, subpage) // tags are empty for now.
 {
+    let id = element.id;
+    let thumbnail = element.thumbnail;
+    let title = element.title; 
+    let description = element.description;
+    let tags = element.tags;
+
+    let url = subpage ? "project.html?id=" + encodeURI(id) : element.url;
+    let target = subpage ? "_self" : "_blank";
+
     let item = jQuery.parseHTML(
         ` <li class="projectParent">
-                <a href= "`+ url + `" target="_blank">
+                <a href= "`+ url + `" target="`+ target +`">
                     <div class="project">
                         <img src="`+ thumbnail+`">
                         <div class ="text"> 
