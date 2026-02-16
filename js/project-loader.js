@@ -14,7 +14,8 @@ function fetchJSON()
 
             console.log("Projects JSON loaded:", data);
             tagsMap = data.tags;
-
+                                        //true for new system, false for old
+                                        //subpages not implemented fully yet
             data.projects.forEach(element => addProject(element, false));
         })
         .catch(err => console.error(err));
