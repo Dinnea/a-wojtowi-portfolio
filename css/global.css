@@ -1,0 +1,160 @@
+@import url(style-desktop.css);
+@import url(style-tablet.css);
+@import url(style-mobile.css);
+
+/*GENERAL*/
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+  background-color: #563061;
+}
+
+h1{
+  color:#e6d86b;
+  text-shadow: 0 0 10px #2d1a33;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: -7.5px;
+}
+
+a{
+  color:#e6d86b;
+  text-decoration: none;
+  display: inline;
+}
+a:hover{
+  color:#e6b16b;
+}
+
+ul{
+  list-style-type: none;
+}
+
+img{
+  border-style: solid;
+  border-width: 2px;
+  border-color:#b298dc;
+  box-shadow: 0 0 5px #b298dc;
+}
+.section-divider{
+  width: 90%;
+  height: 1px;
+  background-color: #b298dc;
+  border-color: #b298dc;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #b298dc;
+  margin: 48px 0;
+}
+
+
+/* NAVBAR */
+
+#navbar{
+  z-index:1;
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-end;
+ 
+}
+#navbar > li{
+  display:inline-block;
+}
+nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  margin: -10px;
+  width: 100vw;
+  padding:1px;
+  background-color: #2d1a33;
+  box-shadow: 2px 2px 5px#2d1a33;
+}
+
+nav a {
+  padding-right: 25px;
+}
+
+/*FOOTER*/
+
+#contact{
+  position: relative;
+  overflow: auto;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  padding-top: 5%;
+  margin: -8px;
+  background: #2d1a33;
+  
+}
+#contact > p {
+  
+  text-align: right;
+  font-size: 20px;
+  padding-right: 10px;
+  color: #b59bdd;
+}
+footer {
+
+  height: 50px;
+}
+
+/*TAGS*/
+.tags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0;
+  
+  height: auto;
+  
+}
+.tags > li{
+  text-transform: lowercase;
+  color: white;  
+  box-shadow: 0 0 3px #0e080f;
+}
+.unreal{
+  background-color: #00076f;
+}
+.unity{
+  background-color: #982968;
+  
+}
+.PC{
+  background-color: #72239e;
+}
+.c-sharp{
+  background-color: #9f45b0;
+}
+.group{
+  background-color: #c24ac0;
+}
+.c-plus-plus{
+  background-color: #e54ed0;
+}
+.VR{
+  background-color: #44008b;
+}
+.game{
+  background-color: #126494;
+}
+.education{
+  background-color: #424499;
+}
+.research{
+  background-color: #2A90A6;
+}
+.mobile{
+  background-color: #37AE81;
+}
+.solo{
+  background-color: #42bbb7;
+}

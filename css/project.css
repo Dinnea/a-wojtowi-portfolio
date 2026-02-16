@@ -1,0 +1,58 @@
+main 
+{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 60vw;
+    background-color: #4f2c5a;
+    box-shadow: 50px 50px 50px #4f2c5a;
+    
+}
+
+#projectIntro
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+#projectIntro > *
+{
+    margin: 10px;
+    text-align: left;
+}
+
+#projectIntro > img
+{
+    aspect-ratio: 10 / 4;
+    width: 50vw;
+    object-fit: cover;
+    display: block;
+}
+
+#projectAbout
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projectAbout > *
+{
+    margin: 10px;
+}
+
+
+#about
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#about > *
+{
+    flex: 1;
+}
