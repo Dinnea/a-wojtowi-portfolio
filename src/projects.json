@@ -84,7 +84,7 @@
       "thumbnail": "./src/img/Screenshot 2026-02-14 222543.png",
       "title": "DinnEngine",
       "description": "Simple 2D game engine, built from scratch. WIP.",
-      "tags": ["cpp", "pc", "engine", "university", "solo"]
+      "tags": ["cpp", "pc", "engine", "solo"]
     },
     {
       "id": "gator-escape",
@@ -92,7 +92,7 @@
       "thumbnail": "./src/img/gator-escape.png",
       "title": "Escape the Gator",
       "description": "A local multiplayer VR and PC game.",
-      "tags": ["unity", "csharp", "pc", "vr", "game", "university", "group"]
+      "tags": ["unity", "csharp", "pc", "vr", "game", "group"]
     },
     {
       "id": "vr-performance",
@@ -100,7 +100,7 @@
       "thumbnail": "./src/img/vr-performance.png",
       "title": "VR Engine Performance Investigation",
       "description": "Investigation on performance of game engines for standalone VR apps.",
-      "tags": ["unity", "unreal", "csharp", "cpp", "blueprints", "vr", "research", "university", "solo"]
+      "tags": ["unity", "unreal", "csharp", "cpp", "blueprints", "vr", "research" , "solo"]
     },
     {
       "id": "tower-defence",
@@ -108,7 +108,7 @@
       "thumbnail": "./src/img/Screenshot 2024-07-06 010637.png",
       "title": "Tower Defence",
       "description": "A flexible base for a tower defence game.",
-      "tags": ["unity", "csharp", "pc", "game", "university", "solo"]
+      "tags": ["unity", "csharp", "pc", "game", "solo"]
     },
     {
       "id": "unreal-basics",
@@ -116,7 +116,7 @@
       "thumbnail": "./src/img/unreal.png",
       "title": "Unreal Basics",
       "description": "Study in Unreal Game Development.",
-      "tags": ["unreal", "blueprints", "pc", "study", "university", "solo"]
+      "tags": ["unreal", "blueprints", "pc", "study", "solo"]
     },
     {
       "id": "pogo",
@@ -124,7 +124,7 @@
       "thumbnail": "./src/img/pogo.png",
       "title": "P.O.G.O.",
       "description": "A gyroscope based endless runner.",
-      "tags": ["unity", "csharp", "mobile", "game", "university", "group"]
+      "tags": ["unity", "csharp", "mobile", "game", "group"]
     }
   ]
 }
