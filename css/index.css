@@ -71,11 +71,11 @@ main{
   object-fit: cover;
 }
 
-.text h2{
+.shinyText h2{
   display: inline-block;
 }
 
-.projectContainer .text{
+.projectContainer .shinyText{
   background:linear-gradient(180deg, #0e080f00, #0e080f);
   position: absolute;
   bottom: 5px;
@@ -84,9 +84,6 @@ main{
   align-items: center;
   justify-content: center;
   flex-direction: column; 
-  color:#ffffff;
-  text-shadow: 0 0 10px #ffffff;
-  text-wrap: wrap;
 }
 
 

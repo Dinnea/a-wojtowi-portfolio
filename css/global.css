@@ -53,6 +53,12 @@ img{
   margin: 48px 0;
 }
 
+.shinyText
+{
+  color:#ffffff;
+  text-shadow: 0 0 10px #ffffff;
+  text-wrap: wrap;
+}
 
 /* NAVBAR */
 

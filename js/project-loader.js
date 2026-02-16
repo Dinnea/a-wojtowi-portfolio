@@ -48,7 +48,7 @@ function addProject(element, subpage) // tags are empty for now.
                 <a href= "`+ url + `" target="`+ target +`">
                     <div class="project">
                         <img src="`+ thumbnail+`">
-                        <div class ="text"> 
+                        <div class ="shinyText"> 
                             <h2>`+ title +`</h2>
                             <p>`+ description+ `</p>
                         </div>
