@@ -84,7 +84,12 @@
       "thumbnail": "./src/img/Screenshot 2026-02-14 222543.png",
       "title": "DinnEngine",
       "description": "Simple 2D game engine, built from scratch. WIP.",
-      "tags": ["cpp", "pc", "engine", "solo"]
+      "tags": ["cpp", "pc", "engine", "solo"],
+      "about": [
+    "DinnEngine is a personal 2D game engine project built from scratch in C++20.",
+    "The goal of the project was to better understand game engine architecture, rendering, object systems, and modern C++ by implementing the core systems manually instead of relying on a high-level framework.",
+    "The engine currently includes a fixed-framerate game loop, delta time support, logging, an OpenGL-based 2D sprite renderer, and a Unity-inspired GameObject and Component structure."
+  ]
     },
     {
       "id": "gator-escape",

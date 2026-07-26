@@ -40,7 +40,7 @@ function addProject(element, subpage) // tags are empty for now.
     let description = element.description;
     let tags = element.tags;
 
-    let url = subpage ? "project.html?id=" + encodeURI(id) : element.url;
+    let url = subpage ? "project.html?id=" + encodeURIComponent(id) : element.url;
     let target = subpage ? "_self" : "_blank";
 
     let item = jQuery.parseHTML(
