@@ -46,7 +46,6 @@ main{
 
 #projects{
   margin-top: 100px;
-  background:linear-gradient(180deg, #563061, #2d1a33);
   display: flex;
   flex-direction: column;
  

@@ -2,10 +2,10 @@
 {
 
     #navbar{
-        font-size: 30px;
+        font-size: 25px;
     }
     p{
-        font-size:  30px;
+        font-size:  15px;
     }
 
     #pfp{
@@ -43,7 +43,7 @@
         margin-top: 20px;
         width: 75vw;
         margin-bottom: 20px;
-        font-size: 30px;
+        font-size: 20px;
         row-gap: 20px;
     }
     .tags >li{

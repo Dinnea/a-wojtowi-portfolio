@@ -11,7 +11,11 @@ html{
   font-family: 'Courier New', Courier, monospace;
 }
 body{
-  background-color: #563061;
+  background:linear-gradient(180deg, #563061, #2d1a33);
+}
+
+main {
+  min-height: 100vh;
 }
 
 h1{
@@ -95,9 +99,9 @@ nav a {
   bottom: 0;
   left: 0;
   height: auto;
-  padding-top: 5%;
+  padding-top: 0%;
   margin: -8px;
-  background: #2d1a33;
+  background: transparent;
   
 }
 #contact > p {
